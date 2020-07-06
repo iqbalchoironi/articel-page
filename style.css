@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.8rem;
+    box-shadow: 0 4px 4px -3px #4c4c4d38;
+}
+
+nav ul, .filter ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li, .filter ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+nav ul li a, .filter ul li a {
+    text-decoration: none;
+    color: #34384D;
+    font-weight: 600;
+}
+
+nav ul li a i {
+    margin-left: 5px;
+}
+
+.btn-outline {
+    background-color: #fff;
+    border:1px solid #34384D;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-right: 0.3rem;
+}
+
+.btn {
+    background-color: #34384D;
+    color: #fff;
+    border: 1px solid #34384D;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.filter {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2.8rem;
+}
+
+.main {
+    width: 100%;
+    padding: 1.2rem 2.8rem;
+}
+
+.main h2 {
+    font-size: 1.9rem;
+}
+
+.article-wrapper {
+    display: flex;
+    padding: 1rem 0;
+}   
+
+.article-main {
+    width: 55%;
+    margin-right: 1rem;
+}
+
+.rec-article{
+    width: 45%;
+}
+
+.card-article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.article-img {
+    background-color: gray;
+    width: 98%;
+    height: 350px;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.article-desc {
+    max-width: 85%;
+    margin-bottom: 1rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.img-profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card-rec {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.article-title-rec {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 300px;
+}
+.rec-image {
+    background-color: gray;
+    width: 14rem;
+    height: 8rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
